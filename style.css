@@ -5,3 +5,8 @@ header a { color: #fff; margin-right: 15px; }
 
 .project-grid { display: flex; gap: 20px; }
 .card { background: white; padding: 20px; flex: 1; }
+
+@media (max-width: 600px) {
+    .project-grid { flex-direction: column; }
+    header { text-align: center; }
+}
