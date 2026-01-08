@@ -10,3 +10,5 @@ header a { color: #fff; margin-right: 15px; }
     .project-grid { flex-direction: column; }
     header { text-align: center; }
 }
+
+.card:hover { background: #eee; cursor: pointer; }
